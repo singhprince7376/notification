@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My PWA App</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000">
+</head>
+<body>
+    <h1>Welcome to My Progressive Web App</h1>
+    <p>This PWA will work offline and can be installed!</p>
+    
+    <!-- Time picker for setting notification time -->
+    <label for="notificationTime">Set Notification Time:</label>
+    <input type="time" id="notificationTime" required>
+    
+    <!-- Button to schedule the notification -->
+    <button onclick="scheduleNotification()">Schedule Notification</button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
